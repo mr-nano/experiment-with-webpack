@@ -1,0 +1,1 @@
+(()=>{var e={812:(e,r)=>{r.getMessage=function(){return"Hello from lib1.js"}},74:(e,r,t)=>{let o=t(812);r.getMessage=function(){return o.getMessage()+" & Hello from lib2.js"}}},r={};function t(o){var s=r[o];if(void 0!==s)return s.exports;var n=r[o]={exports:{}};return e[o](n,n.exports,t),n.exports}(()=>{const e=t(74);console.log(e.getMessage())})()})();gst
